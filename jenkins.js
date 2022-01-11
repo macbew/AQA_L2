@@ -1,4 +1,4 @@
-const data = { browser:process.env.OS,
+const data = { browser:process.env.Browser,
   timer:6, 
 }
 
