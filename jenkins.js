@@ -1,5 +1,5 @@
 const data = { browser:process.env.OS,
-  timer:1515, 
+  timer:4, 
 }
 
 console.log(data.browser);
