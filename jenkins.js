@@ -1,7 +1,14 @@
-const data = { browser:process.env.Browser,
-  timer:8, 
-}
+// let browser = process.env.Browser;
 
-console.log(data.browser);
+ (function jenkins(browser = `chrome`){
+  console.log(browser);
+})(process.env.Browser)
+
+// jenkins(process.env.Browser)
+// const data = { browser:process.env.Browser,
+//   timer:8, 
+// }
+
+// console.log(data.browser);
 
 //module.exports = data;
